@@ -1,5 +1,5 @@
 var n = 10;
-console.log(n); //String Literal
+console.log(n);
 console.log(n.toString()); //String Literal
 
 //scape notation

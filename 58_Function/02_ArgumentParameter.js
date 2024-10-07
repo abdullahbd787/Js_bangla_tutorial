@@ -4,7 +4,7 @@ function anik(a, b) {
   console.log(a * b);
   console.log(a / b);
 }
-anik(8, 2);
+anik(8, 2);            
 anik(9, 2);
 anik(10, 2);
 

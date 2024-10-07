@@ -4,6 +4,7 @@ function abdullah() {
   console.log(a + b);
 }
 abdullah();
+
 function anik(a, b) {
   a + b;
   console.log(a + b);

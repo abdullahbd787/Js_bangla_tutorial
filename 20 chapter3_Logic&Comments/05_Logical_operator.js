@@ -28,7 +28,7 @@ if (a > b || c > d) {
   console.log("At least one conditon is false");
 }
 
-var a = 10;
-var b = 20;
-var check = !(a > b);
-console.log(check);
+var a = 5;
+var b = 5;
+var check = !!(a > b);
+console.log({ check: check });
