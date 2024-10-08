@@ -1,21 +1,15 @@
 function add(a, b) {
-  return a + b; // 7
+  return a * b; // 12
 }
 
-function manipulate(a, b, add) {
+function manipulate(a, b, fn) {
   var c = a + b; // 7
   var d = a - b; // -1
 
-  // function multiply() {
-  //   var m = func(a, b);
-  //   return c * d * m; // 7*(-1)*7
-  // }
-
   return function () {
-    var m = add(a, b);
-    return c * d * m; // 7*(-1)*7
+    var m = fn(a, b);
+    return c * d * m;  // 7*(-1)*7
   };
 }
-
 var multiply = manipulate(3, 4, add);
 console.log(multiply());

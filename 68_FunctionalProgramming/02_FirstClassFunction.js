@@ -7,7 +7,7 @@ function add(a, b) {
 //1. A function can be stored ina variable
 var sum = add;
 console.log(sum(4, 5));
-console.log(typeof sum);
+console.log(typeof sum); 
 
 // 2. A Function can be stored in an array
 var arr = [];

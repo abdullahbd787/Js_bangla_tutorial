@@ -12,7 +12,7 @@ function sum(a, b) {
 function sub(a, b) {
   return a - b;
 }
-var result = sample(5, 8, sub);
+var result = sample(5, 8, sum);
 console.log(result);
 
 var result2 = sample(5, 8, function (c, d) {

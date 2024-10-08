@@ -10,10 +10,11 @@ console.log(sqr(3));
 console.log(sqr(3));
 console.log(sqr(3));
 
-var n = 10;
+const n = 10;
 // those are not pure function
 function change() {
-  n = 100;
+  let n = 100;
+  console.log(n);
 }
 change();
 console.log(n);
